@@ -1,0 +1,9 @@
+[
+  {"name": "pedido_id",   "type": "STRING",  "mode": "REQUIRED"},
+  {"name": "data_pedido", "type": "DATE",    "mode": "REQUIRED"},
+  {"name": "cliente_id",  "type": "STRING",  "mode": "NULLABLE"},
+  {"name": "estado",      "type": "STRING",  "mode": "NULLABLE"},
+  {"name": "categoria",   "type": "STRING",  "mode": "NULLABLE"},
+  {"name": "quantidade",  "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "valor",       "type": "NUMERIC", "mode": "NULLABLE"}
+]
